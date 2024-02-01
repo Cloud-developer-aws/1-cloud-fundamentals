@@ -1,6 +1,7 @@
 # cloud-fundamentals
 
 1. [Storage & Content Delivery](#schema1)
+2. [AWS Management](#schema2)
 
 
 <hr>
@@ -39,3 +40,29 @@ latencia al almacenar en caché contenido en ubicaciones estratégicas (llamadas
 https://aws.amazon.com/es/cloudfront/
 
 https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+
+
+<hr>
+<a name='schema2'></a>
+
+## 2. AWS Management
+
+
+
+Install or update the latest version of the AWS CLI
+
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+Ver la version del cli
+
+```
+aws --version
+```
+
+
+Para ver las instancias EC2 que se estan ejecutando
+
+```
+aws ec2 describe-instances
+```
